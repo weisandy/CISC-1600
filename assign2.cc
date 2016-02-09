@@ -15,7 +15,7 @@ int main()
 	
 	string thing;
 	cout << "What's your favorite thing? ";
-	getline (cin, thing);
+	cin >> thing;
 	
 	cout << "Hi, " << name << ".\n"
 	     << "I know your are " <<  age
