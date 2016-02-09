@@ -9,16 +9,16 @@ int main()
 	cout << "What's your name? ";
 	getline (cin, name);
 	
-	string age;
+	int age = 0;
 	cout << "What's your age? ";
-	getline (cin, age);
+	cin >> age;
 	
 	string thing;
 	cout << "What's your favorite thing? ";
 	getline (cin, thing);
 	
-	cout<< "Hi, " << name << ".\n"
-	    << "I know your are " <<  age
-	    << " years old and like " << thing << ".\n";
+	cout << "Hi, " << name << ".\n"
+	     << "I know your are " <<  age
+	     << " years old and like " << thing << ".\n";
 	
 }
